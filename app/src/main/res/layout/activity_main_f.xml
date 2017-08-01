@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.deeparora.finalproject.MainActivityF">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"  >
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="201dp"
+            android:layout_height="36dp"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/color1"
+            android:text="Resturant Evaluation"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.371"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.017" />
+
+
+        <TextView
+            android:id="@+id/Foodquality"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="Food Quality"
+            android:textColor="@color/color"
+            android:textSize="37dp" />
+
+
+
+        <RadioButton
+            android:id="@+id/Foodqualityr1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Otstanding"
+            android:textSize="30dp"
+            android:layout_marginLeft="3dp"/>
+
+        <RadioButton
+            android:id="@+id/Foodqualityr2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Excellent"
+            android:textSize="30dp" />
+
+        <RadioButton
+            android:id="@+id/Foodqualityr3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Good"
+            android:textSize="30dp" />
+
+        <RadioButton
+            android:id="@+id/Foodqualityr4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bad"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/Service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Service"
+            android:textColor="@color/color"
+            android:textSize="37dp" />
+
+        <RadioButton
+            android:id="@+id/Servicer1"
+            android:layout_width="match_parent"
+            android:text="Outstanding"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/Servicer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Excellent" />
+
+
+
+        <RadioButton
+            android:id="@+id/Servicer3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Good" />
+
+
+        <RadioButton
+            android:id="@+id/Servicer4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bad" />
+
+
+
+        <TextView
+            android:id="@+id/Cleanliness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Cleanliness"
+            android:textColor="@color/color"
+            android:textSize="22dp" />
+
+        <RadioButton
+            android:id="@+id/Cleanlinessr1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Otstanding"
+            android:textSize="17dp" />
+
+        <RadioButton
+            android:id="@+id/Cleanlinessr2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Excellent"
+            android:textSize="17dp" />
+
+        <RadioButton
+            android:id="@+id/Cleanlinessr3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Good"
+            android:textSize="17dp" />
+
+        <RadioButton
+            android:id="@+id/Cleanlinessr4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bad"
+            android:textSize="17dp" />
+
+
+        <TextView
+            android:id="@+id/Responsetime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Response Time"
+            android:textColor="@color/color"
+            android:textSize="22dp" />
+
+        <RadioButton
+            android:id="@+id/Responsetimer1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Otstanding"
+            android:textSize="17dp" />
+
+        <RadioButton
+            android:id="@+id/Responsetimer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Excellent"
+            android:textSize="17dp" />
+
+        <RadioButton
+            android:id="@+id/Responsetimer3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Good"
+            android:textSize="17dp" />
+
+        <RadioButton
+            android:id="@+id/Responsetimer4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bad"
+            android:textSize="17dp" />
+
+
+        <TextView
+            android:id="@+id/Valueofmoney"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Value Of Money"
+            android:textColor="@color/color"
+            android:textSize="22dp" />
+
+        <RadioButton
+            android:id="@+id/Valueofmoneyr1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Otstanding"
+            android:textSize="17dp" />
+
+        <RadioButton
+            android:id="@+id/Valueofmoneyr2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Excellent"
+            android:textSize="17dp" />
+
+        <RadioButton
+            android:id="@+id/Valueofmoneyr3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Good"
+            android:textSize="17dp" />
+
+        <RadioButton
+            android:id="@+id/Valueofmoneyr4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bad"
+            android:textSize="17dp" />
+
+
+
+        <TextView
+            android:id="@+id/WouldYouCelebrate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Would You Like To Celebrate:-"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/Birthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Birthday"
+            android:textSize="25dp" />
+
+
+        <CheckBox
+            android:id="@+id/Birthdayc1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color4"
+            android:text="Yes"/>
+
+        <CheckBox
+            android:id="@+id/Birthdayc2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color3"
+            android:text="No" />
+
+        <TextView
+            android:id="@+id/Otherfunctions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Other Functions"
+            android:textSize="25dp" />
+
+
+        <CheckBox
+            android:id="@+id/Otherfunctionsc1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color4"
+            android:text="Yes"/>
+
+        <CheckBox
+            android:id="@+id/Otherfunctionsc2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color3"
+            android:text="No" />
+
+        <TextView
+            android:id="@+id/PersonalDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Personal Details"
+            android:textSize="25dp" />
+
+      <EditText
+          android:id="@+id/Name"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Name"/>
+
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"/>
+
+
+        <EditText
+            android:id="@+id/Phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile No"/>
+
+        <EditText
+            android:id="@+id/Comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Additional Comments and Suggestions"/>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="center"
+            />
+
+
+
+    </LinearLayout>
+</ScrollView>
+
